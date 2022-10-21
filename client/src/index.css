@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--base-color: #dedee5;
+    --base-color-alt: #f5f5f7;
+    --brand-color: #3e4349;
+    --brand-color-alt: #6d7680;
+    --accent-color: #3ba9d2;
+    --accent-color-alt: #79c4e0;
+    --color-dark: #0c0c0c;
+    --color-main: teal;
+    --color-main-4:  rgba(63, 157, 193, .4);
+    --color-primary: teal;
+    --color-secondary: #54595F;
+    --color-success: green;
+    --color-text: #7A7A7A;
+    --color-accent: #61CE70;
+    --white: #fff;
+
+    /* Typography  */
+    --typography-primary-font-family: "Roboto";
+    --typography-primary-font-weight: 600;
+    --typography-secondary-font-family: "Roboto Slab";
+    --typography-secondary-font-weight: 400;
+    --typography-text-font-family: "Roboto";
+    --typography-text-font-weight: 400;
+    --typography-accent-font-family: "Roboto";
+    --typography-accent-font-weight: 500;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+}
